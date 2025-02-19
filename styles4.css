@@ -1,0 +1,140 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 40px 0;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.course-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.course {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.course h3 {
+  margin-top: 10px;
+}
+
+.course a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.course a:hover {
+  background-color: #555;
+}
+
+.progress-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 5px;
+  height: 20px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.progress {
+  background-color: #4caf50;
+  height: 100%;
+  border-radius: 5px;
+}
+
+#contact ul {
+  list-style: none;
+  text-align: center;
+}
+
+#contact ul li {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 1rem;
+}
